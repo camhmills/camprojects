@@ -6,7 +6,7 @@ justify-content: center;
 align-items: center;
 height: 80px;
 width: 100vw;
-background-color: #e34234;
+background-color: #202020;
 `
 
 export const HeaderStuff = styled.div`
@@ -15,6 +15,6 @@ justify-content: space-evenly;
 align-items: center;
 height: 80px;
 width: 33vw;
-background-color: #e34234;
+background-color: #202020;
 font-size: 25px;
 `

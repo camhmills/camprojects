@@ -34,12 +34,7 @@ z-index: 1;
 
 export const ProjectLink = styled(Link)`
 text-decoration: none;
-Link:visited {
-    color: black;
-}
-Link:active {
-    color: black;
-}
+color: #FAFAFA
 `
 
 export const ProjectModal = styled.div`
