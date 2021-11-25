@@ -51,8 +51,8 @@ color: #FAFAFA;
 `
 export const HomeH3 = styled.h3`
 color: #FAFAFA;
-width: 500px;
-@media screen and (max-width: 1050px) {
+width: 520px;
+@media screen and (max-width: 1200px) {
     width: 325px;
 }
 `
@@ -105,10 +105,12 @@ float: left;
 
 export const HomeSkillSet = styled.div`
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 height: 50px;
-min-width: 300px;
-max-width: 500px;
+width: 500px;
+@media screen and (max-width: 1200px) {
+    width: 400px;
+}
 `
 
