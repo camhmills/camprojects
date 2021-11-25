@@ -8,9 +8,9 @@ export default function Home() {
     return (
         <HomeContainer>
             <HomeLeft>
-                <HomeH1>Let's develop something!</HomeH1>
+                <HomeH1>Let's build something!</HomeH1>
                 <HomeH3>
-                    Hi, I'm Cameron. I'm a junior developer with a great work ethic. 
+                    Hi, I'm Cameron. I'm a developer with a great work ethic. 
                     If there's a technology or language I haven't grasped yet, it's on the list.
                 </HomeH3>
                 <HomeSkillSet>

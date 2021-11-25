@@ -1,15 +1,11 @@
 import React from 'react'
-import { ContactContainer, ContactH1 } from '../styled-components/ContactStyle'
+import { ContactContainer, ContactIframe } from '../styled-components/ContactStyle'
 import { ProjectAnchor } from '../styled-components/ProjectStyle'
 
 export default function Contact() {
     return (
         <ContactContainer>
-            <ContactH1>
-                Working on the email portion! Setting up the back-end to handle it. Until then, send an email to: camhmills@gmail.com
-                Or you can check out my Github Profile: <ProjectAnchor href = 'https://github.com/camhmills'>Github</ProjectAnchor>
-                Or my LinkedIn Profile: <ProjectAnchor href = 'https://www.linkedin.com/in/cameron-mills-741402119/'>LinkedIn</ProjectAnchor>
-            </ContactH1>
+            <ContactIframe src="https://docs.google.com/forms/d/e/1FAIpQLSfW8_Qr5lUud3ctwaW_d75EAOu2QFtRMsddTMN7YIgU_B-MVg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</ContactIframe>
         </ContactContainer>
     )
 }

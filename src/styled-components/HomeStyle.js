@@ -6,6 +6,9 @@ justify-content: center;
 align-items: center;
 height: auto;
 width: 95vw;
+@media screen and (max-width: 1050px) {
+    flex-direction: column;
+}
 `
 
 export const HomeLeft = styled.div`
@@ -15,6 +18,12 @@ justify-content: center;
 align-items: center;
 height: auto;
 width: 40vw;
+@media screen and (max-width: 1050px) {
+    text-align: center;
+    height: 400px;
+    width: 100vw;
+
+}
 `
 
 export const HomeRight = styled.div`
@@ -23,15 +32,29 @@ justify-content: center;
 align-items: center;
 height: auto;
 width: 50vw;
+@media screen and (max-width: 1050px) {
+    width: 75vw;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    width: 95vw;
+}
 `
 
 export const HomeH1 = styled.h1`
-color: #FAFAFA
+color: #FAFAFA;
+@media screen and (max-width:1050px) {
+    width: 200px;
+    margin: 0px;
+}
 `
-
 export const HomeH3 = styled.h3`
 color: #FAFAFA;
 width: 500px;
+@media screen and (max-width: 1050px) {
+    width: 325px;
+}
 `
 
 const slider = keyframes`
@@ -85,6 +108,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 height: 50px;
-width: 350px
+min-width: 300px;
+max-width: 500px;
 `
 
