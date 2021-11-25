@@ -2,9 +2,9 @@
   "name": "camsporjects",
   "version": "0.1.0",
   "private": true,
-  "engines" : {
-    "npm" : "7.24.1",
-    "node" : "14.17.4"
+  "engines": {
+    "npm": "7.24.1",
+    "node": "14.17.4"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

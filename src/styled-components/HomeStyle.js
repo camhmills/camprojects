@@ -6,6 +6,7 @@ justify-content: center;
 align-items: center;
 height: auto;
 width: 95vw;
+overflow: hidden;
 @media screen and (max-width: 1050px) {
     flex-direction: column;
 }
