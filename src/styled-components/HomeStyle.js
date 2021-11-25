@@ -4,23 +4,24 @@ export const HomeContainer = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100%;
-width: 100vw;
+height: auto;
+width: 95vw;
 `
 
 export const HomeLeft = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-height: 100%;
-width: 45vw;
+align-items: center;
+height: auto;
+width: 40vw;
 `
 
 export const HomeRight = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100%;
+height: auto;
 width: 50vw;
 `
 
@@ -31,7 +32,6 @@ color: #FAFAFA
 export const HomeH3 = styled.h3`
 color: #FAFAFA;
 width: 500px;
-margin-bottom: 400px;
 `
 
 const slider = keyframes`
@@ -78,5 +78,13 @@ animation: 20s ${slider} infinite;
 export const SliderImg = styled.img`
 width: 20%;
 float: left;
+`
+
+export const HomeSkillSet = styled.div`
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 50px;
+width: 350px
 `
 

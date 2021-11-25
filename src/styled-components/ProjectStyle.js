@@ -22,7 +22,6 @@ display: flex;
 justify-content: center;
 height: 350px;
 width: 500px;
-background-color: #e34234;
 `
 
 export const ProjectImg = styled.img`
@@ -58,6 +57,8 @@ text-align: center;
 export const ProjectAnchor = styled.a`
 height: 350px;
 width: 500px;
+color: #FAFAFA;
+text-decoration: none;
 `
 
 export const ProjectParagraph = styled.p`
