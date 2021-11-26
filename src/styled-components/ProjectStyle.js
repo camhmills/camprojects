@@ -5,7 +5,7 @@ export const MainContainer = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh;
+height: 89.5vh;
 width: 100vw;
 `
 
@@ -20,6 +20,7 @@ background-color: #010409;
     grid-template-columns: 350px;
     grid-gap: 10px;
     width: 100vw;
+    margin-top: 200px;
 }
 `
 

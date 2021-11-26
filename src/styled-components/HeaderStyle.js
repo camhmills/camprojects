@@ -23,6 +23,7 @@ font-size: 25px;
 
 @media screen and (max-width: 800px) {
     width: 75vw;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {

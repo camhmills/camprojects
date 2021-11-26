@@ -111,7 +111,7 @@ align-items: center;
 height: 50px;
 width: 500px;
 @media screen and (max-width: 1200px) {
-    width: 400px;
+    width: 350px;
 }
 `
 
