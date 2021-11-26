@@ -17,7 +17,7 @@ export default function Projects() {
                 </ProjectAnchor>
             </ProjectCard>
             <ProjectCard>
-                <ProjectAnchor href = 'https://github.com/camhmills/digitalcrafts/tree/master/week13/day1/soloproject'>
+                <ProjectAnchor href = 'https://yarning-desire.herokuapp.com/'>
                     <ProjectImg src = {YarningDesire}></ProjectImg>
                     <ProjectModal>
                         <ProjectParagraph>Yarning Desire is a simple front-end template for an e-commerce store, with basic styling.</ProjectParagraph>
@@ -25,7 +25,7 @@ export default function Projects() {
                 </ProjectAnchor>
             </ProjectCard>
             <ProjectCard>
-                <ProjectAnchor href = 'https://github.com/camhmills/digitalcrafts/tree/master/week13/day1/soloproject'>
+                <ProjectAnchor href = 'https://github.com/ZakOpry/backend_project_2'>
                     <ProjectImg src = {JobStack}></ProjectImg>
                     <ProjectModal>
                         <ProjectParagraph>JobStack employs simple DOM manipulation combined with a Node/Express back-end.</ProjectParagraph>
