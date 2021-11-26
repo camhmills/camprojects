@@ -53,6 +53,7 @@ color: #FAFAFA;
 export const HomeH3 = styled.h3`
 color: #FAFAFA;
 width: 520px;
+text-align: center;
 @media screen and (max-width: 1200px) {
     width: 325px;
 }

@@ -21,6 +21,7 @@ export default function Projects() {
                     <ProjectImg src = {YarningDesire}></ProjectImg>
                     <ProjectModal>
                         <ProjectParagraph>Yarning Desire is a simple front-end template for an e-commerce store, with basic styling.</ProjectParagraph>
+                        <button>Github</button>
                     </ProjectModal>
                 </ProjectAnchor>
             </ProjectCard>

@@ -5,7 +5,7 @@ display: flex;
 justify-content: center;
 align-items: start;
 width: 95vw;
-height: 100vh;
+height: 89.5vh;
 `
 
 export const ContactIframe = styled.iframe`
