@@ -97,7 +97,7 @@ position: relative;
 width: 500%;
 margin: 0;
 left: 0;
-animation: 20s ${slider} infinite;
+animation: 17s ${slider} infinite;
 `
 
 export const SliderImg = styled.img`
