@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <ProjectContainer>
       <ProjectCard>
-        <ProjectAnchor href="https://github.com/camhmills/Capstone">
+        <ProjectAnchor href="https://graphit-client.herokuapp.com/login">
           <ProjectImg src={GraphIt}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
