@@ -109,6 +109,9 @@ export const ProjectParagraph = styled.p`
   font-size: 40px;
   color: white;
   @media screen and (max-width: 1050px) {
-    font-size: 30px;
+    font-size: 27px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 22px;
   }
 `;

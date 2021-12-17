@@ -4,7 +4,7 @@ export const HeaderDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 70px;
   width: 100vw;
   background-color: #202020;
 `;
@@ -13,7 +13,7 @@ export const HeaderStuff = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 70px;
   width: 33vw;
   background-color: #202020;
   font-size: 25px;
