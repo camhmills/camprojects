@@ -4,11 +4,9 @@ export const HeaderDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
   height: 80px;
   width: 100vw;
   background-color: #202020;
-  margin-bottom: 75px;
 `;
 
 export const HeaderStuff = styled.div`

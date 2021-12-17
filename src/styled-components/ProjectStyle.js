@@ -20,10 +20,9 @@ export const ProjectContainer = styled.div`
     grid-template-columns: 350px;
     grid-gap: 10px;
     width: 100vw;
-    margin-top: 310px;
   }
   @media screen and (max-height: 1000px) {
-      margin-top: 300px;
+      margin-top: 150px;
   }
 `;
 

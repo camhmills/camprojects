@@ -82,6 +82,7 @@ export default function Projects() {
           </ProjectModal>
         </ProjectAnchor>
       </ProjectCard>
+      <div style = {{width: "100px", height: "100px"}}></div>
     </ProjectContainer>
   );
 }
