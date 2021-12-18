@@ -13,6 +13,7 @@ import GraphIt from "../images/GraphIt.png";
 import YarningDesire from "../images/YarningDesire.png";
 import BacklogBooster from "../images/BacklogBooster.png";
 import JobStack from "../images/JobStack.png";
+import WeatherApp from "../images/WeatherApp.png";
 import GitHub from "../images/Github.png";
 
 export default function Projects() {
@@ -51,15 +52,14 @@ export default function Projects() {
         </ProjectAnchor>
       </ProjectCard>
       <ProjectCard>
-        <ProjectAnchor href="https://github.com/ZakOpry/backend_project_2">
-          <ProjectImg src={JobStack}></ProjectImg>
+        <ProjectAnchor href="https://weather-practice.herokuapp.com/">
+          <ProjectImg src={WeatherApp}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
-              JobStack employs simple DOM manipulation combined with a
-              Node/Express back-end.
+              A weather app that takes in city names, and makes sue of React, Redux Toolkit, and Axios.
             </ProjectParagraph>
             <ExternalLinkContainer>
-              <ExternalLink href="https://github.com/ZakOpry/backend_project_2">
+              <ExternalLink href="https://github.com/camhmills/timelymd-assignment">
                 <img src={GitHub} />
               </ExternalLink>
             </ExternalLinkContainer>
