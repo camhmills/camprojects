@@ -56,7 +56,7 @@ export default function Projects() {
           <ProjectImg src={WeatherApp}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
-              A weather app that takes in city names, and makes sue of React, Redux Toolkit, and Axios.
+              A weather app that takes in city names, and makes use of React, Redux Toolkit, and Axios.
             </ProjectParagraph>
             <ExternalLinkContainer>
               <ExternalLink href="https://github.com/camhmills/timelymd-assignment">
