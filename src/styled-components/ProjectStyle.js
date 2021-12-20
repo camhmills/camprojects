@@ -108,6 +108,7 @@ export const ProjectAnchor = styled.a`
 export const ProjectParagraph = styled.p`
   font-size: 40px;
   color: white;
+  margin: 0px;
   @media screen and (max-width: 1050px) {
     font-size: 27px;
   }

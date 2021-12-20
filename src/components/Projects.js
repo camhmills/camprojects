@@ -12,7 +12,6 @@ import {
 import GraphIt from "../images/GraphIt.png";
 import YarningDesire from "../images/YarningDesire.png";
 import BacklogBooster from "../images/BacklogBooster.png";
-import JobStack from "../images/JobStack.png";
 import WeatherApp from "../images/WeatherApp.png";
 import GitHub from "../images/Github.png";
 
@@ -27,6 +26,7 @@ export default function Projects() {
               GraphIt combines PostgreSQL, Express, Node, and React for an
               effective data visualization tool.
             </ProjectParagraph>
+            <p>Hosted on Heroku. Please be patient while it loads!</p>
             <ExternalLinkContainer>
               <ExternalLink href="https://github.com/camhmills/Capstone">
                 <img src={GitHub} />
@@ -43,6 +43,7 @@ export default function Projects() {
               Yarning Desire is a simple front-end template for an e-commerce
               store, with basic styling.
             </ProjectParagraph>
+            <p>Hosted on Heroku. Please be patient while it loads!</p>
             <ExternalLinkContainer>
               <ExternalLink href="https://github.com/camhmills/Yarning-Desire">
                 <img src={GitHub} />
@@ -56,8 +57,10 @@ export default function Projects() {
           <ProjectImg src={WeatherApp}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
-              A weather app that takes in city names, and makes use of React, Redux Toolkit, and Axios.
+              A weather app that takes in city names, and makes use of React,
+              Redux Toolkit, and Axios.
             </ProjectParagraph>
+            <p>Hosted on Heroku. Please be patient while it loads!</p>
             <ExternalLinkContainer>
               <ExternalLink href="https://github.com/camhmills/timelymd-assignment">
                 <img src={GitHub} />
@@ -82,7 +85,7 @@ export default function Projects() {
           </ProjectModal>
         </ProjectAnchor>
       </ProjectCard>
-      <div style = {{width: "100px", height: "100px"}}></div>
+      <div style={{ width: "100px", height: "100px" }}></div>
     </ProjectContainer>
   );
 }
