@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 87vh;
+  height: 75vh;
   width: 95vw;
   overflow: hidden;
   @media screen and (max-width: 1050px) {
@@ -36,6 +36,7 @@ export const HomeRight = styled.div`
   @media screen and (max-width: 1050px) {
     width: 75vw;
     margin-bottom: 150px;
+    margin-top: 50px;
   }
 
   @media screen and (max-width: 768px) {
