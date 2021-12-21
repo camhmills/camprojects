@@ -5,7 +5,7 @@ export const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 89.5vh;
+  height: 75vh;
   width: 100vw;
 `;
 
@@ -24,7 +24,9 @@ export const ProjectContainer = styled.div`
   @media screen and (max-height: 1000px) {
       margin-top: 150px;
   }
-`;
+  @media screen and (max-height: 670px) {
+    margin-top: 225px;
+  }`;
 
 export const ProjectCard = styled.div`
   display: flex;

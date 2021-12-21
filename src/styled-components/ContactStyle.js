@@ -5,7 +5,7 @@ export const ContactContainer = styled.div`
   justify-content: center;
   align-items: center;;
   width: 95vw;
-  height: 89.5vh;
+  height: 80vh;
 `;
 
 export const ContactIframe = styled.iframe`
