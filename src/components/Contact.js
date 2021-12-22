@@ -32,6 +32,7 @@ export default function Contact() {
     <ContactContainer>
       <ContactForm onSubmit = {onSubmitForm}>
         <ContactInputsmall
+          required = {true}
           placeholder="Name"
           name="name"
           onChange={(e) =>
@@ -39,6 +40,7 @@ export default function Contact() {
           }
         ></ContactInputsmall>
         <ContactInputsmall
+          required = {true}
           placeholder="E-Mail"
           name="email"
           onChange={(e) =>
@@ -46,6 +48,9 @@ export default function Contact() {
           }
         ></ContactInputsmall>
         <ContactInputLarge
+          required = {true}
+          rows = "10"
+          cols = "20"
           placeholder="Write your message here..."
           name="message"
           onChange={(e) =>
