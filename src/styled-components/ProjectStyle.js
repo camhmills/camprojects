@@ -53,6 +53,10 @@ export const ProjectImg = styled.img`
 export const ProjectLink = styled(Link)`
   text-decoration: none;
   color: #fafafa;
+  transition: .5s;
+  &:hover {
+    filter: invert(50%)
+  }
 `;
 
 export const ExternalLinkContainer = styled.div`

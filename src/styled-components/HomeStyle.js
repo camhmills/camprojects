@@ -1,12 +1,14 @@
 import styled, { keyframes } from "styled-components";
 
 export const HomeContainer = styled.div`
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 95vw;
-  overflow: hidden;
+  margin-top: 50px;
+  z-index: -1;
   @media screen and (max-width: 1050px) {
     flex-direction: column;
   }

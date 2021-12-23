@@ -2,11 +2,14 @@ import styled from "styled-components";
 
 export const HeaderDiv = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 70px;
   width: 100vw;
   background-color: #202020;
+  @media only screen and (max-width: 800px) {
+    justify-content: center;
+  }
 `;
 
 export const HeaderStuff = styled.div`
@@ -14,16 +17,23 @@ export const HeaderStuff = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  width: 33vw;
+  width: 20vw;
   background-color: #202020;
   font-size: 25px;
-  @media screen and (max-width: 1000px) {
-    width: 50vw;
+  margin-left: 25px;
+  @media screen and (max-width: 1720px) {
+    font-size: 22px;
+    width: 25vw;
+  }
+
+  @media screen and (max-width: 1100px) {
+    width: 37vw;
   }
 
   @media screen and (max-width: 800px) {
     width: 75vw;
     font-size: 20px;
+    margin-left: 0px;
   }
 
   @media screen and (max-width: 500px) {
