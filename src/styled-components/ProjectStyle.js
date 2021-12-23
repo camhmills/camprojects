@@ -5,7 +5,7 @@ export const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 89.5vh;
   width: 100vw;
 `;
 
