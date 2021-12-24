@@ -25,7 +25,7 @@ export const HomeLeft = styled.div`
     text-align: center;
     height: 400px;
     width: 100vw;
-    margin-top: 115px;
+    margin-top: 0px;
   }
 `;
 

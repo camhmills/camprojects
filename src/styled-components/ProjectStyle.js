@@ -21,8 +21,8 @@ export const ProjectContainer = styled.div`
     grid-gap: 10px;
     width: 100vw;
   }
-  @media screen and (max-height: 1000px) {
-      margin-top: 150px;
+  @media screen and (max-height: 800px) {
+      margin-top: 50px;
   }
   @media screen and (max-height: 670px) {
     margin-top: 225px;
