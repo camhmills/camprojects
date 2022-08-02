@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const HeaderDiv = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 70px;
   width: 100vw;
-  background-color: #202020;
+  background-color: #FAFAFA;
+  box-shadow: 0px 0px 20px #202020;
   @media only screen and (max-width: 800px) {
     justify-content: center;
   }
@@ -18,7 +19,7 @@ export const HeaderStuff = styled.div`
   align-items: center;
   height: 70px;
   width: 20vw;
-  background-color: #202020;
+  background-color: #FAFAFA;
   font-size: 25px;
   margin-left: 25px;
   @media screen and (max-width: 1720px) {

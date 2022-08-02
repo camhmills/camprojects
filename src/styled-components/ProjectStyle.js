@@ -52,7 +52,7 @@ export const ProjectImg = styled.img`
 
 export const ProjectLink = styled(Link)`
   text-decoration: none;
-  color: #fafafa;
+  color: #202020;
   transition: .5s;
   &:hover {
     filter: invert(50%)

@@ -17,10 +17,10 @@ export const ContactInputsmall = styled.input`
   height: 45px;
   width: 400px;
   border: 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #202020;
   margin-bottom: 10px;
-  background: #010409;
-  color: #fafafa;
+  background: #fafafa;
+  color: #202020;
   font-size: 20px;
   transition: outline 4s ease;
   &:focus {
@@ -35,11 +35,11 @@ export const ContactInputLarge = styled.textarea`
   height: 50%;
   width: 100%;
   max-width: 600px;
-  color: #fafafa;
+  color: #202020;
   border: 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #202020;
   margin-bottom: 10px;
-  background: #010409;
+  background: #fafafa;
   font-size: 16px;
   text-align: start;
   font-family: Arial, sans-serif;
@@ -55,13 +55,14 @@ export const ContactInputLarge = styled.textarea`
 export const ContactButton = styled.button`
   height: 35px;
   width: 125px;
-  color: #fafafa;
-  border: 1px solid #fafafa;
+  color: #202020;
+  border: 1px solid #202020;
   border-radius: 4px;
-  background: #202020;
+  background: #fafafa;
   transition: 0.5s;
   &:hover {
-    background: #010409;
+    background: gray;
+    color: white;
   }
 `;
 

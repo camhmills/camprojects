@@ -34,7 +34,7 @@ export const HomeRight = styled.div`
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 50vw;
+  width: 60vw;
   @media screen and (max-width: 1050px) {
     width: 75vw;
     margin-bottom: 150px;
@@ -47,7 +47,7 @@ export const HomeRight = styled.div`
 `;
 
 export const HomeH1 = styled.h1`
-  color: #fafafa;
+  color: #202020;
   @media screen and (max-width: 1050px) {
     width: 200px;
     margin: 0px;
@@ -56,7 +56,7 @@ export const HomeH1 = styled.h1`
   }
 `;
 export const HomeH3 = styled.h3`
-  color: #fafafa;
+  color: #202020;
   width: 520px;
   text-align: center;
   @media screen and (max-width: 1200px) {
@@ -72,7 +72,7 @@ const slider = keyframes`
     left: 0;
 }
 25% {
-    left: -100%
+    left: -100%;
 }
 45% {
     left: -100%;
@@ -102,7 +102,7 @@ export const SliderFigure = styled.figure`
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 17s ${slider} infinite;
+  animation: 20s ${slider} infinite;
 `;
 
 export const SliderImg = styled.img`
