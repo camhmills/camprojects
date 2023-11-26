@@ -9,45 +9,81 @@ import {
   ProjectModal,
   ProjectParagraph,
 } from "../styled-components/ProjectStyle";
-import House1 from "../images/house1.jpg"
-import House2 from "../images/house2.jpg"
-import House3 from "../images/house3.jpg"
-import House4 from "../images/house4.jpg"
+import GraphIt from "../images/GraphIt.png";
+import YarningDesire from "../images/YarningDesire.png";
+import BacklogBooster from "../images/BacklogBooster.png";
+import WeatherApp from "../images/WeatherApp.png";
+import GitHub from "../images/Github.png";
 
 export default function Projects() {
   return (
     <ProjectContainer>
       <ProjectCard>
-         <ProjectImg src={House1}></ProjectImg>
+        <ProjectAnchor href="https://graphit-client.herokuapp.com/login">
+          <ProjectImg src={GraphIt}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
-              Address for House 1
+              GraphIt combines PostgreSQL, Express, Node, and React for an
+              effective data visualization tool.
             </ProjectParagraph>
+            <p>Hosted on Heroku. Please be patient while it loads!</p>
+            <ExternalLinkContainer>
+              <ExternalLink href="https://github.com/camhmills/Capstone">
+                <img src={GitHub} />
+              </ExternalLink>
+            </ExternalLinkContainer>
           </ProjectModal>
+        </ProjectAnchor>
       </ProjectCard>
       <ProjectCard>
-         <ProjectImg src={House2}></ProjectImg>
+        <ProjectAnchor href="https://yarning-desire.herokuapp.com/">
+          <ProjectImg src={YarningDesire}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
-              Address for House 2
+              Yarning Desire is a simple front-end template for an e-commerce
+              store, with basic styling.
             </ProjectParagraph>
+            <p>Hosted on Heroku. Please be patient while it loads!</p>
+            <ExternalLinkContainer>
+              <ExternalLink href="https://github.com/camhmills/Yarning-Desire">
+                <img src={GitHub} />
+              </ExternalLink>
+            </ExternalLinkContainer>
           </ProjectModal>
+        </ProjectAnchor>
       </ProjectCard>
       <ProjectCard>
-        <ProjectImg src={House3}></ProjectImg>
+        <ProjectAnchor href="https://weather-practice.herokuapp.com/">
+          <ProjectImg src={WeatherApp}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
-              Address for House 3
+              A weather app that takes in city names, and makes use of React,
+              Redux Toolkit, and Axios.
             </ProjectParagraph>
+            <p>Hosted on Heroku. Please be patient while it loads!</p>
+            <ExternalLinkContainer>
+              <ExternalLink href="https://github.com/camhmills/timelymd-assignment">
+                <img src={GitHub} />
+              </ExternalLink>
+            </ExternalLinkContainer>
           </ProjectModal>
+        </ProjectAnchor>
       </ProjectCard>
       <ProjectCard>
-          <ProjectImg src={House4}></ProjectImg>
+        <ProjectAnchor href="https://camhmills.github.io/">
+          <ProjectImg src={BacklogBooster}></ProjectImg>
           <ProjectModal>
             <ProjectParagraph>
-              Address for House 4
+              Backlog Booster is simple Javascript and DOM manipulation and API
+              access.
             </ProjectParagraph>
+            <ExternalLinkContainer>
+              <ExternalLink href="https://github.com/camhmills/camhmills.github.io">
+                <img src={GitHub} />
+              </ExternalLink>
+            </ExternalLinkContainer>
           </ProjectModal>
+        </ProjectAnchor>
       </ProjectCard>
       <div style={{ width: "100px", height: "100px" }}></div>
     </ProjectContainer>

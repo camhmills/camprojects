@@ -12,7 +12,7 @@ export default function Header() {
     <HeaderDiv>
       <HeaderStuff>
         <ProjectLink to="/">Home</ProjectLink>
-        <ProjectLink to="/projects">Properties</ProjectLink>
+        <ProjectLink to="/projects">Cam's Projects</ProjectLink>
         <ProjectLink to="/contact">Contact</ProjectLink>
       </HeaderStuff>
     </HeaderDiv>
